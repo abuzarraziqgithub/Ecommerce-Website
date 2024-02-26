@@ -47,23 +47,25 @@ body {
   backdrop-filter: blur(10px);
   border-radius: 0px 0px 0px 10px;
   display: flex;
+  gap: 10px;
   justify-content: flex-start;
   align-items: center;
   padding-left: 10%;
 }
 #nav-logo {
   width: auto;
-  height: 100%;
+  height: 90%;
 }
 .-navlogo > a {
   color: #dcd7c9;
   font-size: 24px;
+  font-weight: 900;
   font-family: "Quicksand";
   text-decoration: none;
 }
 .-navlogo > a > span {
   color: burlywood;
-  font-weight: 800;
+  font-weight: 100;
   font-size: 30px;
 }
 /* nav-third-box */
@@ -144,7 +146,8 @@ body {
   width: 85%;
   height: 60vh;
   border-radius: 10px;
-  background-color: rgba(10, 10, 10, 0.3);
+  background-color: #a27b5c;
+  /* background-color: rgba(10, 10, 10, 0.3); */
   box-shadow: 5px 5px 30px;
   display: flex;
   justify-content: flex-end;
